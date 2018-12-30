@@ -15,4 +15,7 @@ function draw() {
 
 function mousePressed() {
   background(250, 250, 100);
+  textSize(16);
+  fill(0);
+  text(frameCount, 20, 20);
 }
