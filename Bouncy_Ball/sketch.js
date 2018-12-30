@@ -16,7 +16,10 @@ function setup() {
 }
 
 function draw() {
-  background(200);
+  var red = map(mouseX, 0, width, 150, 255);
+  var green = map(mouseY, 0, width, 125, 255);
+  var blue = (red + green)/2; 
+  background(red, green, blue);
   
   if (circleY + diameter/2 === height) {
 		changeColour();
