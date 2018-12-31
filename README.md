@@ -1,6 +1,6 @@
 # Learning-JavaScript
 ### Following the Coding Train tutorials
-5 simple programs using the P5 library to learn the basics of JavaScript.
+5 simple programs using the p5js library to learn the basics of JavaScript.
 
 
 1. Shapes, Drawing and Colour:
