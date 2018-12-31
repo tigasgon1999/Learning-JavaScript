@@ -52,7 +52,7 @@ function changeBackground() {
 }
 
 function clicking() {
-  var xPos = map(mouseX, 0, 600, 191, 327);
+  var xPos = map(mouseX, 0, 600, 101, 147);
   textSize(64);
   text('Clicking', xPos, height/2+15, 50);
 }
