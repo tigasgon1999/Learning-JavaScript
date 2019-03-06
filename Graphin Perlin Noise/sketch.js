@@ -1,4 +1,6 @@
-var start = 0.0;
+// Graphin Perlin Noise (1D)
+
+var start = 0.0;    // Allows the graph to move
 var increment = 0.01;
 
 function setup() {
