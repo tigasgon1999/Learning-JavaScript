@@ -22,5 +22,5 @@ function draw() {
   }
   endShape();
 
-  start += increment
+  start += increment;
 }
